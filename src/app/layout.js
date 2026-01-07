@@ -38,20 +38,11 @@ export const metadata = {
     siteName: 'Garib Nawaz Chicken',
     locale: 'en_IN',
     type: 'website',
-    images: [
-      {
-        url: '/og.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Garib Nawaz Fresh Halal Chicken Shop',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Garib Nawaz | Fresh Halal Chicken Supplier",
     description: "Premium fresh halal chicken in Vasai Phata. Retail & Wholesale.",
-    images: ['/og.webp'],
   },
 };
 
