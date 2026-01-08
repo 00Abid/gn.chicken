@@ -60,6 +60,7 @@ export function Header() {
                             ))}
                             <a
                                 href="tel:+918446319998"
+                                data-track="nav-call-button"
                                 className="bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 rounded-lg font-bold text-sm shadow-md transition-all active:scale-95"
                             >
                                 Call for Wholesale

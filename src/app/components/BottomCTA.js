@@ -27,6 +27,7 @@ export default function PoultryConversionSection() {
                             <a
                                 href="https://wa.me/918446319998?text=Hi%20Garib%20Nawaz,%20I%20want%20to%20order%20chicken"
                                 target="_blank"
+                                data-track="cta-whatsapp-button"
                                 rel="noopener noreferrer"
                                 className="w-full sm:w-auto flex items-center justify-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-2xl font-bold text-xl hover:bg-[#1ebf5b] transition-all duration-300 shadow-xl hover:-translate-y-1 active:scale-95"
                             >
@@ -36,6 +37,7 @@ export default function PoultryConversionSection() {
 
                             <a
                                 href="tel:+918446319998"
+                                data-track="cta-call-button"
                                 className="w-full sm:w-auto flex items-center justify-center gap-3 bg-white text-emerald-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-emerald-50 transition-all duration-300 shadow-xl hover:-translate-y-1 active:scale-95"
                             >
                                 <Phone className="w-6 h-6" />
