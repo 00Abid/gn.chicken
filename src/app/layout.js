@@ -86,9 +86,6 @@ export default function RootLayout({ children }) {
           {children}
         </div>
 
-        {/* Global Conversion Layer */}
-        <WhatsAppButton />
-
         {/* Footer Layer */}
         <Footer />
       </body>
