@@ -1,8 +1,11 @@
 import "./globals.css";
 import { Header } from "@/app/components/Header";
 import { Footer } from "@/app/components/Footer";
-import { WhatsAppButton } from "@/app/components/WhatsAppButton";
 import Breadcrumbs from "@/app/components/Breadcrum";
+import Script from "next/script";
+import { GoogleTagManager } from '@next/third-parties/google'
+
+
 
 
 // SEO STRATEGY: Enterprise-Grade Global Metadata
@@ -88,6 +91,20 @@ export default function RootLayout({ children }) {
 
         {/* Footer Layer */}
         <Footer />
+        <GoogleTagManager gtmId="GTM-WXCXCB79" />
+        <Script id="ms-clarity-script" strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "uy4ct724fh");
+          `,
+          }}
+        />
+
+
       </body>
     </html>
   );
